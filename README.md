@@ -19,6 +19,8 @@
 
 🌐 **Live demo:** [https://alfredang.github.io/aterlier/](https://alfredang.github.io/aterlier/)
 
+![Atelier hero screenshot](screenshot.png)
+
 </div>
 
 ## About

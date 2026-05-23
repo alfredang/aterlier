@@ -19,3 +19,6 @@ Thumbs.db
 
 # Local Claude config
 .claude/
+
+# Playwright MCP working dir
+.playwright-mcp/
