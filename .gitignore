@@ -19,6 +19,12 @@ Thumbs.db
 
 # Local Claude config
 .claude/
+.agents/
+skills-lock.json
 
 # Playwright MCP working dir
 .playwright-mcp/
+
+# Local test screenshots (not docs)
+enquiry-filled.png
+enquiry-success.png

@@ -373,6 +373,13 @@
         }
         form.reset();
         showToast('Thank you — your message has been sent. We\'ll be in touch.');
+        if ('speechSynthesis' in window) {
+          const utter = new SpeechSynthesisUtterance('HURRAY, YOUR FORM is SUBMITTED SUCCESSFULLY');
+          utter.rate = 1;
+          utter.pitch = 1;
+          speechSynthesis.cancel();
+          speechSynthesis.speak(utter);
+        }
       } catch (err) {
         console.error('[Enquiry]', err);
         showToast('Something went wrong. Please email us directly at studio@atelier.example.com.', true);
