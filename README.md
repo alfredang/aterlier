@@ -12,8 +12,12 @@
 [![Responsive](https://img.shields.io/badge/Responsive-Mobile_First-22D3EE)](#features)
 [![A11y](https://img.shields.io/badge/A11y-Keyboard_%2B_Reduced_Motion-0EA5E9)](#features)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-alfredang.github.io%2Faterlier-22D3EE?logo=github&logoColor=white)](https://alfredang.github.io/aterlier/)
+[![Deploy](https://github.com/alfredang/aterlier/actions/workflows/deploy.yml/badge.svg)](https://github.com/alfredang/aterlier/actions/workflows/deploy.yml)
 
 **A single-page luxury interior design landing site — editorial typography, warm neutral palette, hand-built motion, FormSubmit-powered enquiries. Pure HTML, CSS, and vanilla JavaScript. No framework, no build step, no dependencies.**
+
+🌐 **Live demo:** [https://alfredang.github.io/aterlier/](https://alfredang.github.io/aterlier/)
 
 </div>
 
