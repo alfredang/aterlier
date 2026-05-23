@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Atelier — Luxury Interior Design Studio | Singapore</title>
+  <meta name="description" content="Atelier is an award-winning interior design studio crafting residential, commercial, and hospitality spaces that inspire. Based in Singapore, working worldwide." />
+  <meta name="keywords" content="luxury interior design, residential design, commercial interior, space planning, renovation, Singapore interior designer" />
+  <meta name="author" content="Atelier Interior Studio" />
+  <meta name="theme-color" content="#F5F1EB" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Atelier — Luxury Interior Design Studio" />
+  <meta property="og:description" content="Designing spaces that inspire. Residential, commercial, and renovation consultancy by Atelier." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80" />
+  <meta property="og:locale" content="en_SG" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Atelier — Luxury Interior Design Studio" />
+  <meta name="twitter:description" content="Designing spaces that inspire." />
+
+  <link rel="canonical" href="https://atelier.example.com/" />
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23F5F1EB'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='40' font-style='italic' text-anchor='middle' fill='%238B6F47'%3EA%3C/text%3E%3C/svg%3E" type="image/svg+xml" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,300;1,9..144,400&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- JSON-LD: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "InteriorDesignBusiness",
+    "name": "Atelier Interior Studio",
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+    "description": "Award-winning luxury interior design studio specializing in residential, commercial, and hospitality spaces.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "42 Keong Saik Road, #03-01",
+      "addressLocality": "Singapore",
+      "postalCode": "089143",
+      "addressCountry": "SG"
+    },
+    "telephone": "+65-6000-0000",
+    "email": "studio@atelier.example.com",
+    "url": "https://atelier.example.com/"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Skip link for a11y -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-inner">
+      <a href="#home" class="brand" aria-label="Atelier home">
+        <span class="brand-mark">A.</span>
+        <span class="brand-word">Atelier</span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme" type="button">
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" type="button">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile overlay -->
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <nav aria-label="Mobile">
+        <ol>
+          <li><span class="m-num">01</span><a href="#home">Home</a></li>
+          <li><span class="m-num">02</span><a href="#services">Services</a></li>
+          <li><span class="m-num">03</span><a href="#portfolio">Portfolio</a></li>
+          <li><span class="m-num">04</span><a href="#testimonials">Testimonials</a></li>
+          <li><span class="m-num">05</span><a href="#contact">Contact</a></li>
+        </ol>
+      </nav>
+      <div class="mobile-foot">
+        <p>studio@atelier.example.com</p>
+        <p>+65 6000 0000</p>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero-media" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=2400&q=80" alt="" />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-inner">
+        <p class="eyebrow eyebrow--light" data-reveal>
+          <span class="hairline"></span> Est. 2014 — Singapore
+        </p>
+
+        <h1 class="hero-title">
+          <span class="word"><span>Designing</span></span>
+          <span class="word"><span>Spaces</span></span>
+          <span class="word"><span>That</span></span>
+          <span class="word word--italic"><span>Inspire.</span></span>
+        </h1>
+
+        <p class="hero-sub" data-reveal data-delay="600">
+          A boutique studio composing residential, commercial, and hospitality
+          interiors with a quiet sense of craft and a long memory for detail.
+        </p>
+
+        <div class="hero-ctas" data-reveal data-delay="800">
+          <a href="#portfolio" class="btn btn--primary">View Portfolio</a>
+          <a href="#contact" class="btn btn--ghost">Get Free Consultation <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="hero-meta" data-reveal data-delay="1000">
+          <div>
+            <span class="meta-k">Featured in</span>
+            <span class="meta-v">AD · Wallpaper* · Dezeen</span>
+          </div>
+          <div>
+            <span class="meta-k">Recent</span>
+            <span class="meta-v">Tanglin Residence · 2026</span>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#about" aria-label="Scroll to next section">
+        <span>Scroll</span>
+        <span class="scroll-line"></span>
+      </a>
+    </section>
+
+    <!-- ============ ABOUT + STATS ============ -->
+    <section class="about" id="about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <p class="eyebrow" data-animate><span class="num">01</span> Philosophy</p>
+          <h2 class="display-2" data-animate>
+            We design <em>quietly</em>, so the space can <em>speak</em>.
+          </h2>
+          <p class="lede" data-animate>
+            Atelier is a twelve-person practice working at the intersection of
+            interior architecture and material culture. We believe a room
+            should feel inevitable — not styled. Every commission begins with
+            a conversation, a slow look at how you live, and the patience to
+            wait until the right answer arrives.
+          </p>
+          <p class="signature" data-animate>
+            <span class="sig-mark">— M. Devereux</span>
+            <span class="sig-role">Founder &amp; Principal</span>
+          </p>
+        </div>
+
+        <div class="stats" id="stats" data-animate>
+          <div class="stat">
+            <span class="stat-num" data-count="250" data-suffix="+">0</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="15" data-suffix="">0</span>
+            <span class="stat-label">Years of Craft</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="38" data-suffix="">0</span>
+            <span class="stat-label">International Awards</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="12" data-suffix="">0</span>
+            <span class="stat-label">Cities Worked In</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services" id="services">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow" data-animate><span class="num">02</span> Practice</p>
+          <h2 class="display-2" data-animate>
+            Four disciplines, <em>one</em> method.
+          </h2>
+        </header>
+
+        <div class="service-grid">
+          <article class="service-card" data-animate data-stagger="0">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2">
+                <path d="M10 38V20a6 6 0 0 1 6-6h16a6 6 0 0 1 6 6v18"/>
+                <path d="M6 38h36"/>
+                <path d="M14 38v4M34 38v4"/>
+                <path d="M16 20h16"/>
+              </svg>
+            </div>
+            <h3>Residential Design</h3>
+            <p>Houses, penthouses, and pied-à-terres composed for the rhythm of family life — from millwork to bedding.</p>
+            <span class="learn-more">Explore the discipline <em>→</em></span>
+          </article>
+
+          <article class="service-card" data-animate data-stagger="1">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2">
+                <path d="M8 42V10h20v32"/>
+                <path d="M28 42V20h12v22"/>
+                <path d="M14 16h2M14 22h2M14 28h2M14 34h2M22 16h2M22 22h2M22 28h2M22 34h2M32 26h2M32 32h2"/>
+                <path d="M4 42h40"/>
+              </svg>
+            </div>
+            <h3>Commercial Interior</h3>
+            <p>Hospitality, retail, and workplace environments tuned to brand, light, and the choreography of a working day.</p>
+            <span class="learn-more">Explore the discipline <em>→</em></span>
+          </article>
+
+          <article class="service-card" data-animate data-stagger="2">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2">
+                <rect x="8" y="8" width="32" height="32"/>
+                <path d="M8 18h32M18 8v32"/>
+                <path d="M24 24l8 8M32 24l-8 8"/>
+                <circle cx="13" cy="13" r="1.2" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3>Space Planning</h3>
+            <p>Architectural editing — flow, proportion, daylight. We start with the plan because everything else inherits from it.</p>
+            <span class="learn-more">Explore the discipline <em>→</em></span>
+          </article>
+
+          <article class="service-card" data-animate data-stagger="3">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2">
+                <path d="M14 30l-8 8 4 4 8-8"/>
+                <path d="M18 26l8-8"/>
+                <path d="M26 18l6-6 8 8-6 6z"/>
+                <path d="M18 26l8 8"/>
+              </svg>
+            </div>
+            <h3>Renovation Consultation</h3>
+            <p>Short-form engagements for owners mid-build — colour, finishes, and procurement edited with a curator's hand.</p>
+            <span class="learn-more">Explore the discipline <em>→</em></span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PORTFOLIO ============ -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <header class="section-head section-head--row">
+          <div>
+            <p class="eyebrow" data-animate><span class="num">03</span> Selected Works</p>
+            <h2 class="display-2" data-animate>A monograph, <em>in miniature.</em></h2>
+          </div>
+
+          <div class="filters" role="tablist" aria-label="Filter portfolio">
+            <button class="filter is-active" data-filter="all" type="button">All</button>
+            <button class="filter" data-filter="living" type="button">Living Room</button>
+            <button class="filter" data-filter="bedroom" type="button">Bedroom</button>
+            <button class="filter" data-filter="office" type="button">Office</button>
+            <button class="filter" data-filter="kitchen" type="button">Kitchen</button>
+          </div>
+        </header>
+
+        <div class="grid" id="portfolioGrid">
+          <figure class="tile tile--tall" data-category="living" data-title="Tanglin Residence" data-caption="Living Room · Singapore, 2025" data-animate data-stagger="0">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=900&q=80" alt="Tanglin Residence living room with travertine fireplace" />
+            <figcaption><span class="cat">Living Room</span><span class="t">Tanglin Residence</span></figcaption>
+          </figure>
+
+          <figure class="tile" data-category="kitchen" data-title="Keong Saik Loft" data-caption="Kitchen · Singapore, 2024" data-animate data-stagger="1">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=900&q=80" alt="Keong Saik kitchen with brass fittings" />
+            <figcaption><span class="cat">Kitchen</span><span class="t">Keong Saik Loft</span></figcaption>
+          </figure>
+
+          <figure class="tile" data-category="bedroom" data-title="Mont Kiara House" data-caption="Bedroom · Kuala Lumpur, 2025" data-animate data-stagger="2">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80" alt="Mont Kiara primary bedroom with linen drapery" />
+            <figcaption><span class="cat">Bedroom</span><span class="t">Mont Kiara House</span></figcaption>
+          </figure>
+
+          <figure class="tile" data-category="office" data-title="Cecil Street Studio" data-caption="Office · Singapore, 2025" data-animate data-stagger="3">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80" alt="Cecil Street workspace with oak desks" />
+            <figcaption><span class="cat">Office</span><span class="t">Cecil Street Studio</span></figcaption>
+          </figure>
+
+          <figure class="tile tile--wide" data-category="living" data-title="Sentosa Pavilion" data-caption="Living Room · Singapore, 2024" data-animate data-stagger="4">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80" alt="Sentosa pavilion sitting area" />
+            <figcaption><span class="cat">Living Room</span><span class="t">Sentosa Pavilion</span></figcaption>
+          </figure>
+
+          <figure class="tile" data-category="kitchen" data-title="Bukit Timah Family Home" data-caption="Kitchen · Singapore, 2023" data-animate data-stagger="5">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80" alt="Bukit Timah kitchen with marble island" />
+            <figcaption><span class="cat">Kitchen</span><span class="t">Bukit Timah Family Home</span></figcaption>
+          </figure>
+
+          <figure class="tile tile--tall" data-category="bedroom" data-title="Maison Tiong Bahru" data-caption="Bedroom · Singapore, 2024" data-animate data-stagger="6">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1616627451515-d8b67e85b4f6?auto=format&fit=crop&w=900&q=80" alt="Tiong Bahru bedroom with arched window" />
+            <figcaption><span class="cat">Bedroom</span><span class="t">Maison Tiong Bahru</span></figcaption>
+          </figure>
+
+          <figure class="tile" data-category="office" data-title="Ann Siang Atelier" data-caption="Office · Singapore, 2025" data-animate data-stagger="7">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1604328698692-f76ea9498e76?auto=format&fit=crop&w=900&q=80" alt="Ann Siang office with library wall" />
+            <figcaption><span class="cat">Office</span><span class="t">Ann Siang Atelier</span></figcaption>
+          </figure>
+
+          <figure class="tile" data-category="living" data-title="Marina One Sky Suite" data-caption="Living Room · Singapore, 2026" data-animate data-stagger="8">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=900&q=80" alt="Marina One sky suite living area" />
+            <figcaption><span class="cat">Living Room</span><span class="t">Marina One Sky Suite</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow" data-animate><span class="num">04</span> Voices</p>
+          <h2 class="display-2" data-animate>What the rooms <em>are saying.</em></h2>
+        </header>
+
+        <div class="carousel" id="carousel" data-animate>
+          <div class="carousel-viewport">
+            <ul class="carousel-track" id="carouselTrack">
+              <li class="quote">
+                <span class="quote-mark" aria-hidden="true">"</span>
+                <blockquote>
+                  Atelier didn't decorate our house — they unearthed it. The
+                  result feels like a place we'd been waiting to discover.
+                </blockquote>
+                <footer><cite>Charlotte &amp; James Tan</cite><span>Tanglin Residence</span></footer>
+              </li>
+              <li class="quote">
+                <span class="quote-mark" aria-hidden="true">"</span>
+                <blockquote>
+                  Six months in and our guests still pause at the threshold.
+                  There is a calm to the work that no mood-board can promise.
+                </blockquote>
+                <footer><cite>Priya Raman</cite><span>Sentosa Pavilion</span></footer>
+              </li>
+              <li class="quote">
+                <span class="quote-mark" aria-hidden="true">"</span>
+                <blockquote>
+                  Working with Atelier on our flagship was the most considered
+                  brand experience we've ever delivered. They listened first,
+                  drew second.
+                </blockquote>
+                <footer><cite>Daniel Okafor</cite><span>Creative Director, Maison Noire</span></footer>
+              </li>
+              <li class="quote">
+                <span class="quote-mark" aria-hidden="true">"</span>
+                <blockquote>
+                  Every detail — the door pulls, the seam of the linen — was
+                  chosen with the same patience. It shows.
+                </blockquote>
+                <footer><cite>Sara Linder</cite><span>Mont Kiara House</span></footer>
+              </li>
+            </ul>
+          </div>
+
+          <div class="carousel-controls">
+            <button class="c-arrow" id="prevQuote" aria-label="Previous testimonial" type="button">←</button>
+            <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="Testimonial pagination"></div>
+            <button class="c-arrow" id="nextQuote" aria-label="Next testimonial" type="button">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ENQUIRY ============ -->
+    <section class="enquiry" id="contact">
+      <div class="container enquiry-grid">
+        <div class="enquiry-intro">
+          <p class="eyebrow" data-animate><span class="num">05</span> Begin</p>
+          <h2 class="display-2" data-animate>
+            Tell us about the <em>room</em> you imagine.
+          </h2>
+          <p class="lede" data-animate>
+            We accept a small number of new commissions each season. Share a
+            few words and we'll write back within two working days.
+          </p>
+
+          <dl class="contact-list" data-animate>
+            <div>
+              <dt>Studio</dt>
+              <dd>42 Keong Saik Road, #03-01<br/>Singapore 089143</dd>
+            </div>
+            <div>
+              <dt>Hours</dt>
+              <dd>Tue – Sat · 10:00 – 18:00</dd>
+            </div>
+            <div>
+              <dt>Email</dt>
+              <dd><a href="mailto:studio@atelier.example.com">studio@atelier.example.com</a></dd>
+            </div>
+            <div>
+              <dt>Telephone</dt>
+              <dd><a href="tel:+6560000000">+65 6000 0000</a></dd>
+            </div>
+          </dl>
+        </div>
+
+        <form class="enquiry-form" id="enquiryForm" novalidate data-animate>
+          <!-- FormSubmit configuration -->
+          <input type="hidden" name="_subject" value="New enquiry — Atelier website" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+
+          <div class="field">
+            <input id="f-name" type="text" name="name" required autocomplete="name" placeholder=" " />
+            <label for="f-name">Full Name</label>
+            <span class="err" data-err-for="name"></span>
+          </div>
+
+          <div class="field">
+            <input id="f-email" type="email" name="email" required autocomplete="email" placeholder=" " />
+            <label for="f-email">Email Address</label>
+            <span class="err" data-err-for="email"></span>
+          </div>
+
+          <div class="field">
+            <input id="f-phone" type="tel" name="phone" autocomplete="tel" placeholder=" " />
+            <label for="f-phone">Phone <span class="opt">(optional)</span></label>
+            <span class="err" data-err-for="phone"></span>
+          </div>
+
+          <div class="field">
+            <textarea id="f-message" name="message" rows="5" required placeholder=" "></textarea>
+            <label for="f-message">Tell us about your project</label>
+            <span class="err" data-err-for="message"></span>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+            <span class="btn-label">Send Enquiry</span>
+            <span class="btn-arrow" aria-hidden="true">→</span>
+            <span class="btn-loader" aria-hidden="true"></span>
+          </button>
+
+          <p class="form-note">By submitting, you agree to be contacted about your enquiry. We never share your details.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer" id="footer">
+    <div class="container footer-grid">
+      <div class="f-brand">
+        <span class="brand-mark">A.</span>
+        <p>Atelier Interior Studio — a quiet practice of interior architecture and material culture, working between Singapore and the world.</p>
+      </div>
+
+      <nav class="f-nav" aria-label="Footer">
+        <h4>Studio</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Voices</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="f-contact">
+        <h4>Connect</h4>
+        <p>42 Keong Saik Road<br/>Singapore 089143</p>
+        <p><a href="mailto:studio@atelier.example.com">studio@atelier.example.com</a></p>
+        <ul class="socials" aria-label="Social media">
+          <li><a href="#" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a></li>
+          <li><a href="#" aria-label="Pinterest">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="9"/><path d="M11 7c4 0 6 2 6 5 0 3-2 5-4 5-1 0-2-.5-2-1l-1 4"/><path d="M9 13l1-5"/></svg>
+          </a></li>
+          <li><a href="#" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7M7 7v.01M11 17v-4a2 2 0 0 1 4 0v4M11 10v7"/></svg>
+          </a></li>
+          <li><a href="#" aria-label="Behance">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 6h6a2.5 2.5 0 0 1 0 5H3zM3 11h7a2.5 2.5 0 0 1 0 5H3zM14 14h7a3 3 0 0 0-6 0c0 2 1.5 3 3 3 1.2 0 2.3-.5 2.7-1.5M16 7h4"/></svg>
+          </a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container f-bottom">
+      <p>© <span id="year">2026</span> Atelier Interior Studio. All rights reserved.</p>
+      <p class="crafted">Crafted in Singapore.</p>
+    </div>
+  </footer>
+
+  <!-- ============ WHATSAPP FLOAT ============ -->
+  <!-- Replace 6500000000 with your real WhatsApp number (include country code, no plus/spaces). -->
+  <a class="wa-float" id="waFloat" href="https://wa.me/6500000000?text=Hello%20Atelier%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg width="22" height="22" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+      <path d="M16.001 3C9.373 3 4 8.372 4 15c0 2.376.69 4.595 1.882 6.469L4 29l7.706-1.852A11.948 11.948 0 0 0 16 27c6.627 0 12-5.373 12-12S22.628 3 16.001 3zm0 21.6a9.6 9.6 0 0 1-4.893-1.34l-.35-.21-4.572 1.099 1.117-4.456-.227-.36A9.6 9.6 0 1 1 16.001 24.6zm5.27-7.183c-.288-.144-1.706-.842-1.971-.94-.264-.096-.456-.144-.648.145s-.744.94-.912 1.133c-.168.193-.336.217-.624.072s-1.215-.448-2.314-1.428c-.855-.762-1.432-1.703-1.6-1.991-.168-.288-.018-.443.126-.587.13-.13.288-.336.432-.504.144-.169.192-.289.288-.482.096-.193.048-.361-.024-.505s-.648-1.563-.888-2.14c-.234-.563-.471-.486-.648-.495-.168-.008-.36-.01-.552-.01s-.504.072-.768.36c-.264.288-1.008.985-1.008 2.4 0 1.416 1.032 2.784 1.176 2.977.144.193 2.04 3.111 4.945 4.366.69.298 1.229.476 1.65.609.693.22 1.323.19 1.823.115.556-.083 1.706-.697 1.949-1.371s.243-1.252.17-1.371c-.072-.12-.264-.193-.552-.337z"/>
+    </svg>
+  </a>
+
+  <!-- ============ BACK TO TOP ============ -->
+  <button class="to-top" id="toTop" aria-label="Back to top" type="button">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Project image viewer">
+    <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+    <button class="lb-arrow lb-prev" id="lbPrev" aria-label="Previous image">←</button>
+    <button class="lb-arrow lb-next" id="lbNext" aria-label="Next image">→</button>
+    <figure class="lb-figure">
+      <img id="lbImage" alt="" />
+      <figcaption id="lbCaption"></figcaption>
+    </figure>
+  </div>
+
+  <!-- ============ TOAST ============ -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
